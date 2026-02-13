@@ -15,8 +15,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#5E35B1"
+            android:layout_height="136dp"
+            android:background="@color/bg_purple"
             android:paddingBottom="24dp">
 
             <androidx.cardview.widget.CardView
@@ -50,8 +50,8 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.498"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintHorizontal_bias="0.248"
+                app:layout_constraintStart_toEndOf="@+id/profile_image_card"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView

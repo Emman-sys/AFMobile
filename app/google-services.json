@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899676195175",
+    "project_id": "anf-chocolate",
+    "storage_bucket": "anf-chocolate.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899676195175:android:2a529ce9f514f71bcc47c2",
+        "android_client_info": {
+          "package_name": "com.example.afmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANqMOdRgY5RMLvJC2wND4k6M4hRWrOaGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

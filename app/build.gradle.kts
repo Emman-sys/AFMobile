@@ -1,14 +1,15 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.example.login"
+    namespace = "com.example.afmobile"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.login"
+        applicationId = "com.example.afmobile"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -44,4 +45,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(platform("com.google.firebase:firebase-bom:34.9.0"))
+    implementation("com.google.firebase:firebase-analytics")
 }
